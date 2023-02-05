@@ -1,10 +1,10 @@
-# terraform-aws-module-template
+# terraform-google-module-template
 
-[![Releases](https://img.shields.io/github/v/release/NotableHealth/terraform-aws-module-template)](https://github.com/NotableHealth/terraform-aws-module-template/releases/tag/latest)
+[![Releases](https://img.shields.io/github/v/release/NotableHealth/terraform-google-module-template)](https://github.com/NotableHealth/terraform-google-module-template/releases/tag/latest)
 
-[Terraform Module Registry](https://registry.terraform.io/modules/NotableHealth/module-template/aws)
+[Terraform Module Registry](https://registry.terraform.io/modules/NotableHealth/module-template/google)
 
-Template for creating a Terraform module for AWS
+Template for creating a Terraform module for Google
 
 ## Features
 
