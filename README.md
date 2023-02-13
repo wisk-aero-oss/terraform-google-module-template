@@ -1,8 +1,8 @@
 # terraform-google-module-template
 
-[![Releases](https://img.shields.io/github/v/release/NotableHealth/terraform-google-module-template)](https://github.com/NotableHealth/terraform-google-module-template/releases/tag/latest)
+[![Releases](https://img.shields.io/github/v/release/notable-health/terraform-google-module-template)](https://github.com/notable-health/terraform-google-module-template/releases)
 
-[Terraform Module Registry](https://registry.terraform.io/modules/NotableHealth/module-template/google)
+[Terraform Module Registry](https://registry.terraform.io/modules/notable-health/module-template/google)
 
 Template for creating a Terraform module for Google
 
@@ -15,6 +15,16 @@ Template for creating a Terraform module for Google
 ## Usage
 
 Copy contents or create new repository on GitHub and use this as a template
+
+```hcl
+module "MODULE-NAME" {
+  source  = "ORGANIZATION/MODULE-NAME/google"
+  # git ref until can get issue fixed with publishing this on registry
+  # Recommend pinning every module to a specific version
+  # version = "x.x.x"
+
+}
+```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
