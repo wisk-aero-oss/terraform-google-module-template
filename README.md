@@ -19,7 +19,6 @@ Copy contents or create new repository on GitHub and use this as a template
 ```hcl
 module "MODULE-NAME" {
   source  = "ORGANIZATION/MODULE-NAME/google"
-  # git ref until can get issue fixed with publishing this on registry
   # Recommend pinning every module to a specific version
   # version = "x.x.x"
 
