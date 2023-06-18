@@ -1,3 +1,5 @@
+
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 # terraform-google-module-template
 
 [![Releases](https://img.shields.io/github/v/release/notablehealth/terraform-google-module-template)](https://github.com/notablehealth/terraform-google-module-template/releases)
@@ -14,18 +16,16 @@ Template for creating a Terraform module for Google
 
 ## Usage
 
-Copy contents or create new repository on GitHub and use this as a template
+Basic usage of this module is as follows:
 
 ```hcl
-module "MODULE-NAME" {
-  source  = "ORGANIZATION/MODULE-NAME/google"
-  # Recommend pinning every module to a specific version
-  # version = "x.x.x"
-
+module "example" {
+    source = "notablehealth/<module-name>/google"
+    # Recommend pinning every module to a specific version
+    # version = "x.x.x"
 }
 ```
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -47,9 +47,15 @@ No resources.
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_sample_input"></a> [sample\_input](#input\_sample\_input) | Simple string variable | `string` | `"sample"` | no |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_sample_output"></a> [sample\_output](#output\_sample\_output) | output value description |
+
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
