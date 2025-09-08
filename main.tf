@@ -15,5 +15,4 @@
  *
  */
 
-
 # Terraform code

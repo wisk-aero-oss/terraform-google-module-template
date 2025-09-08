@@ -1,10 +1,10 @@
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGIN_TF_DOCS -->
 # terraform-google-module-template
 
-[![Releases](https://img.shields.io/github/v/release/notablehealth/terraform-google-module-template)](https://github.com/notablehealth/terraform-google-module-template/releases)
+[![Releases](https://img.shields.io/github/v/release/wisk-aero-oss/terraform-google-module-template)](https://github.com/wisk-aero-oss/terraform-google-module-template/releases)
 
-[Terraform Module Registry](https://registry.terraform.io/modules/notablehealth/module-template/google)
+[Terraform Module Registry](https://registry.terraform.io/modules/wisk-aero-oss/module-template/google)
 
 Template for creating a Terraform module for Google
 
@@ -20,7 +20,7 @@ Basic usage of this module is as follows:
 
 ```hcl
 module "example" {
-    source = "notablehealth/<module-name>/google"
+    source = "wisk-aero-oss/<module-name>/google"
     # Recommend pinning every module to a specific version
     # version = "x.x.x"
 }
@@ -31,7 +31,6 @@ module "example" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3.7 |
-| <a name="requirement_google"></a> [google](#requirement\_google) | >= 4.51.0 |
 
 ## Providers
 
@@ -47,9 +46,7 @@ No resources.
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_sample_input"></a> [sample\_input](#input\_sample\_input) | Simple string variable | `string` | `"sample"` | no |
+No inputs.
 
 ## Outputs
 
@@ -57,5 +54,4 @@ No resources.
 |------|-------------|
 | <a name="output_sample_output"></a> [sample\_output](#output\_sample\_output) | output value description |
 
-
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- END_TF_DOCS -->

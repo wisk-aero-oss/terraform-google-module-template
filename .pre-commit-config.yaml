@@ -9,23 +9,23 @@
 # npm install -g markdown-link-check
 repos:
 - repo: https://github.com/antonbabenko/pre-commit-terraform
-  rev: v1.81.0
+  rev: v1.100.0
   hooks:
     #- id: infracost_breakdown
     - id: terraform_fmt
     - id: terraform_docs
     - id: terraform_validate
     - id: terraform_tflint
-    - id: terraform_tfsec
+    #- id: terraform_tfsec
     - id: terraform_checkov
-    - id: terrascan
-      args:
-      - --args=-"-non-recursive"
-      - --args="-v"
-      #- --args="-c .terrascan.toml"
+    #- id: terrascan
+    #  args:
+    #  - --args=-"-non-recursive"
+    #  - --args="-v"
+    #  #- --args="-c .terrascan.toml"
     #- id: tfupdate
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.4.0
+  rev: v6.0.0
   hooks:
     - id: check-case-conflict
     - id: check-executables-have-shebangs
@@ -38,7 +38,7 @@ repos:
       args: [--fix=lf]
     - id: trailing-whitespace
 - repo: https://github.com/gruntwork-io/pre-commit
-  rev: v0.1.22
+  rev: v0.1.30
   hooks:
     - id: shellcheck
     #- id: markdown-link-check

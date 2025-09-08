@@ -11,8 +11,8 @@
 #  }
 #}
 
-variable "sample_input" {
-  description = "Simple string variable"
-  type        = string
-  default     = "sample"
-}
+#variable "sample_input" {
+#  description = "Simple string variable"
+#  type        = string
+#  default     = "sample"
+#}
