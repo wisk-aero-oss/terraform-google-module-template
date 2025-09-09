@@ -5,7 +5,7 @@
 # Manually run all hooks
 #     pre-commit run -a
 # Install tools on mac
-# brew install pre-commit gawk terraform-docs tflint tfsec coreutils checkov terrascan shellcheck
+# brew install pre-commit gawk terraform-docs tflint trivy coreutils checkov terrascan shellcheck
 # npm install -g markdown-link-check
 repos:
 - repo: https://github.com/antonbabenko/pre-commit-terraform
@@ -16,7 +16,7 @@ repos:
     - id: terraform_docs
     - id: terraform_validate
     - id: terraform_tflint
-    #- id: terraform_tfsec
+    - id: terraform_trivy
     - id: terraform_checkov
     #- id: terrascan
     #  args:
